@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/assets/imgs/banner-principal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.cabecalho{
+    background-image: url("/assets/imgs/banner-poke-header.png");
+    background-size: cover;
+    height: 20%;
+}
+.cabecalho__itens{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 30%;
+    padding-top: 2rem;
+}
+.cabecalho__itens-item1{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.cabecalho__itens-item2{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.container__sobre{
+    margin-left: -100%;
+}
+
+.container__sobre.ativo{
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 200px;
+    background:#dadada;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+}
+
+.container__sobre-list-item:first-child{
+    margin-bottom: 8px;
+}
+.container__sobre-list-item-nome{
+    text-decoration: none;
+    color: black;
+}
+
+
+.conteiner__titulo{
+    margin-left: 1.5rem;
+    width: 125px;
+}
+
+.conteiner__list-pokemons{
+    padding: 16px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.container__sobre-list{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.container__sobre-texto{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.container__sobre-texto-nome{
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.list-pokemons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-pokemons-item{
+    margin: 16px !important;
+    padding: 16px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pak1{
+    background-color: #3ebc8c;
+}
+
+.pak2{
+    background-color: #da5926;
+}
+
+.pak3{
+    background-color: #ffcd05e1;
+}
+
+.pak4{
+    background-color: #3b63da;
+}
+
+.list-pokemons-item-name{
+    color: white;
+    font-weight: 500;
+    text-align: start;
+}
+
+.list-pokemons-item-img{
+   width: 100%;
+}
+
+.container__footer{
+    padding: 32px;
+    background-color: rgb(255, 0, 0);
+}
+
+.container__footer-info{
+    width: 150px;
+}
+
+.container__footer-info1{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.container__footer-info2{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container__footer-info3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.container__footer-infos-redes-item{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container__footer-img{
+    text-align: center;
+}
+
+.footer-img{
+    width: 50%;
+    margin: 0 auto;
+}

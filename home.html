@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My pokedex</title>
+    <link rel="icon" href="/assets/imgs/icon.png" type="image/png">
+
+    <!-- Style Css -->
+    <link rel="stylesheet" href="/assets/css/home.css">
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/4c221199e8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__itens">
+            <i class="fa-solid fa-bars cabecalho__itens-item2" onclick="showHide('#inativo')"></i>
+            <i class="fa-solid fa-arrow-left cabecalho__itens-item1"></i>
+        </nav>
+
+        <nav class="container__sobre" id="inativo">
+            <ul class="container__sobre-list">
+                <li class="container__sobre-list-item">
+                    <a href="" class="container__sobre-list-item-nome"> Sobre o projeto</a>
+                </li>
+                <li class="container__sobre-list-item">
+                    <a href="" class="container__sobre-list-item-nome" >Sobre o desenvolvedor</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <section class="conteiner__titulo">
+            <h1 class="container__titulo-nome">Pokedex</h1>
+            <hr>
+        </section>
+    </header>
+
+    <main>
+        <section class="conteiner__list-pokemons">
+            <ul class="list-pokemons">
+                <li class="list-pokemons-item pak1">
+                    <span class="list-pokemons-item-name">Bulbasaur</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/001.png" alt="iamgem Bulbasaur">
+                </li>
+                <li class="list-pokemons-item pak1">
+                    <span class="list-pokemons-item-name">Ivysaur</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/002.png" alt="iamgem Ivysaur">
+                </li>
+                <li class="list-pokemons-item pak1">
+                    <span class="list-pokemons-item-name">Venusaur</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/003.png" alt="iamgem Venusaur">
+                </li>
+                <li class="list-pokemons-item pak2">
+                    <span class="list-pokemons-item-name">Charmander</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/004.png" alt="iamgem Charmander">
+                </li>
+                <li class="list-pokemons-item pak2">
+                    <span class="list-pokemons-item-name">Charmeleon</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/005.png" alt="iamgem Charmeleon">
+                </li>
+                <li class="list-pokemons-item pak2">
+                    <span class="list-pokemons-item-name">Charizard</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/006.png" alt="iamgem Charizard">
+                </li>
+                <li class="list-pokemons-item pak3">
+                    <span class="list-pokemons-item-name">Pichu</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/172.png" alt="iamgem Pichu">
+                </li>
+                <li class="list-pokemons-item pak3">
+                    <span class="list-pokemons-item-name">Pikachu</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/025.png" alt="iamgem Pikachu">
+                </li>
+                <li class="list-pokemons-item pak3">
+                    <span class="list-pokemons-item-name">Raichu</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/026.png" alt="iamgem Raichu">
+                </li>
+                <li class="list-pokemons-item pak4">
+                    <span class="list-pokemons-item-name">Squirtle</span>
+                    <img class="list-pokemons-item-img" src="/assets/imgs/100.png" alt="iamgem Squirtle">
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
