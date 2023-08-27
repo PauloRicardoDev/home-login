@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/assets/imgs/back-principal.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.cabecalho{
+    background-image: url("/assets/imgs/banner-poke-header.png");
+    background-size: cover;
+    height: 20%;
+}
+.cabecalho__itens{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 30%;
+    padding-top: 2rem;
+}
+.cabecalho__itens-item1{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    color: #000000;
+}
+.cabecalho__itens-item2{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+    color: #000000;
+}
+.container__sobre{
+    margin-left: -100%;
+}
+.container__sobre.ativo{
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 200px;
+    background:#dadada;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+}
+.conteiner__titulo{
+    color: #3ebc8c;
+    margin-left: 1.5rem;
+    width: 142px;
+}
+.container__sobre-list{
+    list-style: none;
+}
+.container__sobre-list-item:first-child{
+    margin-bottom: 8px;
+}
+.container__sobre-list-item-nome{
+    text-decoration: none;
+    color: black;
+}
+
+.box__img{
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: 50vh;
+    background-color: #3ebc8c;
+}
+
+img{
+    margin-top: 3rem;
+    width:300px;
+}
+
+.box__sobre-pokemom{
+}
+
+.box__sobre-pokemom-titulo{
+    width: 100px;
+    margin-left: 1.5rem;
+}
+
+.box__texte-sobre{
+    width: 80%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.box__sobre-pokemom-titulo-sobre{
+   text-align: center;
+   width: 250px;
+   margin: 0 auto;
+}
+
+.box__texte-sobre-list{
+    padding: 1.5rem;
+    list-style: none;
+}
+
+.box__texte-sobre-lis-item{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

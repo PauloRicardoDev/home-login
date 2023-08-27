@@ -21,8 +21,7 @@
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__itens">
-            <i class="fa-solid fa-bars cabecalho__itens-item2" onclick="showHide('#inativo')"></i>
-            <i class="fa-solid fa-arrow-left cabecalho__itens-item1"></i>
+            <i class="fa-solid fa-bars cabecalho__itens-item1" onclick="showHide('#inativo')"></i>
         </nav>
 
         <nav class="container__sobre" id="inativo">
@@ -44,23 +43,38 @@
     </header>
 
     <main>
+
+        <div class="sobre__cards">
+            <h2 class="sobre__cards-titulo">Seus pokemons</h2>
+            <hr>
+        </div>
+        <span class="sobre__cards-subtitulo">Click nos cards para ver detalhes</span>
+
         <section class="conteiner__list-pokemons">
             <ul class="list-pokemons">
                 <li class="list-pokemons-item pak1">
-                    <span class="list-pokemons-item-name">Bulbasaur</span>
-                    <img class="list-pokemons-item-img" src="/assets/imgs/001.png" alt="iamgem Bulbasaur">
+                    <a class="card" href="pagbulbasaur.html">
+                        <span class="list-pokemons-item-name">Bulbasaur</span>
+                        <img class="list-pokemons-item-img" src="/assets/imgs/001.png" alt="iamgem Bulbasaur">
+                    </a>
                 </li>
                 <li class="list-pokemons-item pak1">
-                    <span class="list-pokemons-item-name">Ivysaur</span>
-                    <img class="list-pokemons-item-img" src="/assets/imgs/002.png" alt="iamgem Ivysaur">
+                    <a class="card"  href="">
+                        <span class="list-pokemons-item-name">Ivysaur</span>
+                        <img class="list-pokemons-item-img" src="/assets/imgs/002.png" alt="iamgem Ivysaur">
+                    </a>
                 </li>
                 <li class="list-pokemons-item pak1">
-                    <span class="list-pokemons-item-name">Venusaur</span>
-                    <img class="list-pokemons-item-img" src="/assets/imgs/003.png" alt="iamgem Venusaur">
+                    <a class="card" href="">
+                        <span class="list-pokemons-item-name">Venusaur</span>
+                        <img class="list-pokemons-item-img" src="/assets/imgs/003.png" alt="iamgem Venusaur">
+                    </a>
                 </li>
                 <li class="list-pokemons-item pak2">
-                    <span class="list-pokemons-item-name">Charmander</span>
-                    <img class="list-pokemons-item-img" src="/assets/imgs/004.png" alt="iamgem Charmander">
+                    <a class="card" href="">
+                        <span class="list-pokemons-item-name">Charmander</span>
+                        <img class="list-pokemons-item-img" src="/assets/imgs/004.png" alt="iamgem Charmander">
+                    </a>
                 </li>
                 <li class="list-pokemons-item pak2">
                     <span class="list-pokemons-item-name">Charmeleon</span>
