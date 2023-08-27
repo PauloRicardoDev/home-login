@@ -72,15 +72,10 @@ body{
     height: 50vh;
     background-color: #3ebc8c;
 }
-
 img{
     margin-top: 3rem;
     width:300px;
 }
-
-.box__sobre-pokemom{
-}
-
 .box__sobre-pokemom-titulo{
     width: 100px;
     margin-left: 1.5rem;
