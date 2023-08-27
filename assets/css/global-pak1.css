@@ -50,19 +50,26 @@ body{
     border-radius: 0 5px 5px 0;
 }
 .conteiner__titulo{
-    color: #3ebc8c;
     margin-left: 1.5rem;
-    width: 142px;
+    width: 125px;
+}
+.container__sobre-list-item:first-child{
+    margin-bottom: 16px;
+}
+
+.container__sobre-list-item:last-child{
+    margin-top: 16px;
 }
 .container__sobre-list{
     list-style: none;
 }
-.container__sobre-list-item:first-child{
-    margin-bottom: 8px;
-}
 .container__sobre-list-item-nome{
     text-decoration: none;
     color: black;
+}
+.container__sobre-list-item-nome:hover{
+    border-bottom: 2px solid black;
+    transition: 10s;
 }
 
 .box__img{

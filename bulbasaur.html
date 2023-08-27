@@ -21,7 +21,7 @@
     <header class="cabecalho">
         <nav class="cabecalho__itens">
             <i class="fa-solid fa-bars cabecalho__itens-item2" onclick="showHide('#inativo')"></i>
-            <a class="cabecalho__itens-item1" href="home.html">
+            <a class="cabecalho__itens-item1" href="index.html">
                 <i class="fa-solid fa-arrow-left"></i>
             </a>
            
@@ -35,9 +35,11 @@
                 <li class="container__sobre-list-item">
                     <a href="" class="container__sobre-list-item-nome" >Sobre o desenvolvedor</a>
                 </li>
+                <li class="container__sobre-list-item">
+                    <a href="" class="container__sobre-list-item-nome" onclick="logout()">Sair</a>
+                </li>
             </ul>
         </nav>
-
 
         <section class="conteiner__titulo">
             <h1 class="container__titulo-nome">Bulbasaur</h1>
@@ -90,5 +92,6 @@
     </main>
 
     <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/logout.js"></script>
 </body>
 </html>

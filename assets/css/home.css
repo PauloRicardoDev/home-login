@@ -48,11 +48,19 @@ body{
     width: 125px;
 }
 .container__sobre-list-item:first-child{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.container__sobre-list-item:last-child{
+    margin-top: 16px;
 }
 .container__sobre-list-item-nome{
     text-decoration: none;
     color: black;
+}
+.container__sobre-list-item-nome:hover{
+    border-bottom: 2px solid black;
+    transition: 10s;
 }
 .sobre__cards{
     margin-top: 2rem;
