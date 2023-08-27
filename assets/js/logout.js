@@ -1,4 +1,4 @@
 function logout(){
-    window.location.replace("https://www.pokemon.com/br/pokedex/squirtle");
+    window.location.replace("https://login-pokedex-dio.netlify.app/");
     window.alert('logout');
 }
